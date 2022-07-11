@@ -1,0 +1,35 @@
+{
+  "configsToLoad": [ "LOCKED_LAYER", "TAP_ANIM" ],
+  "configSettings": {
+    "LOCKED_LAYER": {
+        "tableData": [
+          {"customPath":"./corner1",
+            "alpha":1,"scale":1.0,
+            "val2": 4,
+            "enabled":true,"speedRate":3, "isCyclic": true},
+          {"customPath":"./corner4",
+            "alpha":1,"scale":1.0,
+            "val2": 1,
+            "enabled":true,"speedRate":3, "isCyclic": true},
+          {"customPath":"./corner2",
+            "alpha":1,"scale":1.0,
+            "val2": 3,
+            "enabled":true,"speedRate":3, "isCyclic": true},
+          {"customPath":"./corner3",
+            "alpha":1,"scale":1.0,
+            "val2": 2,
+            "enabled":true,"speedRate":3, "isCyclic": true}
+
+        ]
+      },
+      "TAP_ANIM": {
+        "tableData": [
+            {"customPath":"./middle", "alpha":1,
+               "val1":-15,
+               "val2":-30,
+               "scale":0.8,
+              "enabled":true,"speedRate":4, "isCyclic": true}
+          ]
+      }
+  }
+}
